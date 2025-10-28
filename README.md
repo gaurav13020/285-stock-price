@@ -1,4 +1,27 @@
-# Steps to Run the Command-Line Stock Info App
+# Stock Price Information App - Submission
+
+## Quick Start (Recommended)
+
+Simply run the provided script:
+```bash
+./run.sh
+```
+
+This will automatically fetch and display AAPL (Apple) stock information. The script will:
+- Check Python installation
+- Set up virtual environment if needed
+- Install dependencies
+- Fetch and display stock information
+- Exit automatically
+
+To fetch a different stock symbol:
+```bash
+./run.sh MSFT    # Microsoft
+./run.sh GOOGL   # Google
+./run.sh TSLA    # Tesla
+```
+
+## Manual Installation
 
 1. **Ensure Python is Installed**  
    - Verify you have Python 3.9 or later installed:
@@ -17,7 +40,7 @@
      ```
    - Install required packages:
      ```bash
-     pip install yfinance
+     pip install -r requirements.txt
      ```
 
 3. **Run the Script**  
@@ -30,9 +53,9 @@
    - When prompted, enter a stock symbol (e.g., `AAPL`, `ADBE`).  
    - The program will display the current stock information in the format:
      ```
-     Mon Oct 10 17:23:48 PDT 2016
-     Adobe Systems Incorporated (ADBE)
-     109.24 +0.60 (+0.55%)
+     Mon Oct 27 17:33:41 PDT 2025
+     Apple Inc. (AAPL)
+     268.81 +5.99 (+2.28%)
      ```
    - Type `q` and press Enter to quit.
 

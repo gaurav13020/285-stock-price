@@ -12,7 +12,10 @@ Features:
 - Handles errors for invalid symbols and network issues.
 
 Run:
-    python stock_info.py
+    python stockPrice.py
+
+Or use the run script:
+    ./run.sh
 """
 
 import yfinance as yf
